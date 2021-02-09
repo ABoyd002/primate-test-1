@@ -137,7 +137,7 @@ iframe {
 
 /* small */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) and (max-width: 959px) {
   .cards {
     display: flex;
     flex-flow: column;
@@ -181,7 +181,7 @@ iframe {
 
 /* medium */
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
   .cards {
     display: flex;
     flex-flow: row;
@@ -241,6 +241,7 @@ iframe {
   }
 
   .card {
+    flex: 45%;
     display: flex;
     flex-flow: row;
     width: 100%;
